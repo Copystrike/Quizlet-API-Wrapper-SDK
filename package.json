@@ -1,0 +1,28 @@
+{
+  "name": "quizlet-api",
+  "main": "src/QuizLetClient.ts",
+  "types": "dist/index.d.ts",
+  "version": "1.0.0",
+  "author": "Copystrike",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "class-transformer": "^0.4.0",
+    "node-fetch": "^2.6.1",
+    "tslib": "^2.1.0",
+    "utility-types": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "@types/node-fetch": "^2.5.8",
+    "dotenv": "^8.2.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.3"
+  }
+}
